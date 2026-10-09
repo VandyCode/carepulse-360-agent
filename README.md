@@ -20,3 +20,22 @@ This repository is designed to achieve a maximum score of **95/95** on the FDE P
 
 ## 🏗️ Multi-Agent Architecture
 
+
+
+
+
+---
+
+## ⚙️ Quick Start
+
+### 1. Installation & Environment Setup
+Clone the repository and set up your virtual environment:
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/carepulse-360-agent.git
+cd carepulse-360-agent
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+
