@@ -1,0 +1,44 @@
+{
+  "Elevance Health": {
+    "account_name": "Elevance Health",
+    "domain": "Payer",
+    "gcp_sales_stage": "Stage 3 - Technical Validation",
+    "public_strategic_priorities": [
+      "Accelerating digital care delivery for over 47 million members.",
+      "Optimizing clinical models with generative AI to lower administrative overhead."
+    ],
+    "operational_bottlenecks": {
+      "prior_authorization": {
+        "current_pain_point": "Manual prior authorization reviews take an average of 4-5 days, risking non-compliance with the 72-hour turnaround requirements under CMS-0057-F.",
+        "gcp_solution_play": "Healthcare Data Engine (HDE) for clinical data harmonization + Vertex AI Search for Healthcare + Gemini Med for automated clinical document parsing and compliance checks.",
+        "estimated_deal_value_usd": 2500000
+      },
+      "claims_processing": {
+        "current_pain_point": "High rate of first-pass claims denials due to poor de-identification pipeline speeds and ICD-10 coding errors.",
+        "gcp_solution_play": "Cloud Healthcare API FHIR store + BigQuery ML + Google Cloud DLP API pipeline.",
+        "estimated_deal_value_usd": 1200000
+      }
+    }
+  },
+  "Mayo Clinic": {
+    "account_name": "Mayo Clinic",
+    "domain": "Provider",
+    "gcp_sales_stage": "Stage 4 - Proposal Generated",
+    "public_strategic_priorities": [
+      "Pioneering multi-modal clinical AI search across pathology and imaging.",
+      "Deploying secure, distributed AI clinical support systems globally."
+    ],
+    "operational_bottlenecks": {
+      "clinical_search": {
+        "current_pain_point": "Pathologists spend hours searching across disconnected EHR systems, PACS imaging servers, and genomics databases for diagnostic lookalikes.",
+        "gcp_solution_play": "Vertex AI Search for Healthcare + Medical Imaging Suite + High-Performance Computing (HPC) for multi-modal semantic indexing.",
+        "estimated_deal_value_usd": 3800000
+      },
+      "provider_onboarding": {
+        "current_pain_point": "Credentialing and onboarding new clinical staff is heavily paper-based, taking 45-60 days per physician.",
+        "gcp_solution_play": "Document AI for Healthcare + AppSheet workflows.",
+        "estimated_deal_value_usd": 750000
+      }
+    }
+  }
+}
